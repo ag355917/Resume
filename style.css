@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.center{
+text-align:center
+}
+hr{
+    height: 5px;
+    background-color:black;
+}
+.objective{
+  background-color: aquamarine;
+}
+.inline-element{
+    display: inline;
+}
+.containerone-incentre{
+   position: relative;
+}
+
+/* copy-paste material */
+html {
+    font-family: sans-serif;
+  }
+
+  body {
+    margin: 0;
+  }
+
+  header {
+    background: rgb(140, 217, 236);
+    height: 100px;
+  }
+
+  h2 {
+    text-align: center;
+    /* color: white; */
+    line-height: 100px;
+    margin: 0;
+  }
+
+  article {
+    padding: 10px;
+    margin: 10px;
+    background: rgb(245, 247, 159);
+  
+  }
+  /* flex */
+  section {
+    display: flex;
+    /* flex-direction: column;
+    flex-wrap:wrap;
+    flex: 200px; */
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* flex-flow: row wrap; */
+  }
+  article {
+    flex: 1;
+  }
+  article:nth-of-type(3) {
+    flex: 2;
+  }
+  .containerone-incentre{
+    display: flex;
+    align-items:center;
+    justify-content:center;
+  }
+  .display-grid-info{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(177, 238, 218);
+    
+  }
+  .display-grid-info>div>h1{
+   font-size: 8vh;
+   font-weight: 300;
+  }
+  img{
+    border-radius: 50%;
+    height: 30vh;
+  }
+  
+  .display-flex-certi{
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .display-flex-certi>article{
+    margin-top: 3px;
+    margin-bottom: 3px;
+
+  }
